@@ -8,7 +8,7 @@ Kata in Python
 
 In **requirements.txt**
 
-- unittest2
+- PyTest
 
 ## Create a virtual environment
 
