@@ -7,6 +7,7 @@ Kata in Python
 - Python 3
 
 In **requirements.txt**
+
 - unittest2
 
 ## Create a virtual environment
@@ -21,6 +22,7 @@ source venv/bin/activate
 ```
 
 Activate the virtual environment on Windows
+
 ```shell
 .\venv\Scripts\activate
 ```

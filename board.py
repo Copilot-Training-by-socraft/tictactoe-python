@@ -2,7 +2,6 @@ from tile import Tile
 
 
 class Board(object):
-
     def __init__(self):
         self._plays = []
         for i in range(3):
@@ -10,9 +9,8 @@ class Board(object):
                 tile = Tile()
                 tile.X = i
                 tile.Y = j
-                tile.symbol = ' '
+                tile.symbol = " "
                 self._plays.append(tile)
-
 
     def add_tile_at(self, symbol, x, y):
         new_tile = Tile()
