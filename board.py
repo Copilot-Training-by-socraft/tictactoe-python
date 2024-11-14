@@ -20,8 +20,7 @@ class Board(object):
         new_tile.Y = y
         new_tile.symbol = symbol
 
-        self.tile_at(x, y).Symbol = symbol
-
+        self.tile_at(x, y).symbol = symbol
 
     def tile_at(self, x, y):
         for t in self._plays:
